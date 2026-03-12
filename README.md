@@ -68,7 +68,8 @@ client.py
 
 server.py
 
-<img width="866" height="152" alt="image" src="https://github.com/user-attachments/assets/4afd9e99-8cc4-4573-a95e-53fd0c280e21" />
+<img width="631" height="155" alt="Screenshot 2026-01-31 131937" src="https://github.com/user-attachments/assets/d3f8671b-ab73-48a9-bf4b-662d9a15252f" />
+
 
 
 
