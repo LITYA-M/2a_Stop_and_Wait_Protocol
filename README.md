@@ -35,11 +35,14 @@ while True:
     except socket.timeout:
         print("No ACK received, retransmitting...")
         continue
+
+            
 ```
 
 server.py
 ```
 import socket
+
 server = socket.socket()
 server.bind(('localhost', 8000))
 server.listen(1)
@@ -55,7 +58,7 @@ while True:
         conn.send("ACK".encode())
 
         if data.lower() == 'exit':  
-            print("Connection closed by client")
+            print("stop and wait protocol implemented successfully")
             conn.close()
             break
 ```
@@ -64,11 +67,14 @@ while True:
 
 client.py
 
-<img width="866" height="152" alt="image" src="https://github.com/user-attachments/assets/475d270d-de5f-4984-b952-db4efad62a33" />
+<img width="611" height="230" alt="image" src="https://github.com/user-attachments/assets/05e9a40b-b20d-44cc-9b1b-493057a1c240" />
+
 
 server.py
 
-<img width="631" height="155" alt="Screenshot 2026-01-31 131937" src="https://github.com/user-attachments/assets/d3f8671b-ab73-48a9-bf4b-662d9a15252f" />
+<img width="511" height="228" alt="image" src="https://github.com/user-attachments/assets/a22a9153-339d-4843-859f-4c468ffbe4f2" />
+
+
 
 
 
